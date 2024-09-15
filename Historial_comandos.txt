@@ -1,0 +1,103 @@
+ls
+cd repogit
+ls -la
+cd..
+cd ..
+ls
+cat README
+git clone https://github.com/lionelgonzalo/millicay_vagrant.git
+ls
+cd millicay_vagrant/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "lionel.gonzalo@hotmail.com"
+git commit -m "Mi primer commit"
+git push
+logout
+ls
+ls -la
+ssh-keygen -t ed25519
+ls
+ls -la
+cd .ssh
+ls
+cat id_ed25519.pub
+cd ..
+ls
+cd repogit
+ls
+git clone git@github.com:lionelgonzalo/millicay_vagrant.git
+ls
+cd millicay_vagrant/
+ls
+history
+history > historial.txt
+ls
+git status
+git add .
+git stattus
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "lionel.gonzalo@hotmail.com"
+git config --global user.name "lionelgonzalo"
+git commit -m "Mi primer commit"
+git push
+cd ..
+cat /etc/passwd
+
+cat /etc/shadow
+sudo cat/etc/shadow
+sudocat /etc/shadow
+sudo cat /etc/shadow
+logout
+cd repogit/
+cd TP_Ayso/
+ls
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+git status
+git add.
+git status
+git add .
+git status
+git commit -m "ADD: Lista de usuarios ordenada"
+git status
+grep -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+ls
+git log
+git status
+cd .
+cd
+ls
+exit
+ls
+cd repogit/
+ls
+cd TP_Ayso/
+ls
+git status
+git reset
+ls
+exit
+cd
+ls
+cd repogit/
+cd TP_AySO
+ls
+cat README.md 
+git status
+git commit -m "README.md"
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
